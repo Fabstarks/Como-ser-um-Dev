@@ -1,0 +1,16 @@
+Scanner scan = new Scanner(System.in);
+       
+       double DevJunior = 3922.33;
+       double DevPleno = 5255.67;
+       double DevSenior = 8376.33;
+       
+        System.out.println("E aí Dev!!Digite o valor do deu Saldo Dev: no Banco ");
+        double devedor = scan.nextDouble();
+        
+        if (devedor > DevJunior && devedor > DevPleno ){
+            System.out.println("A aí Dev!!! você é um Dev. Junior ou Pleno Mas!! você é um DEVedor Senior ");
+        }else{
+             
+                System.out.println("E ai Dev!!!! parabens Você nao é um DEV edor ");
+            }
+        }     
